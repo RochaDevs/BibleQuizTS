@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+// Palete de cores
+$corPrincipal: #CE253A;
+
+
+// Paleta de fonts 
+$Montserrat: 'Montserrat', sans-serif;
+
+
+// Mixin 
+@mixin sombreamento($x-offset, $y-offset, $blur, $color) {
+    box-shadow: $x-offset $y-offset $blur $color;
+}
+
+@mixin texto-sombra($h-offset, $v-offset, $blur-radius, $color) {
+    text-shadow: $h-offset $v-offset $blur-radius $color;
+}
+
+  

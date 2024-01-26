@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap");
+.container-login {
+  width: 50%;
+}
+.container-login .container-formulario {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+.container-login .container-formulario .formulario-login {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #fff;
+  border-radius: 3rem;
+  padding: 3rem;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  justify-content: space-around;
+}
+.container-login .container-formulario .formulario-login legend {
+  font-size: 2rem;
+  color: #000;
+  font-weight: 900;
+  padding-bottom: 1rem;
+}
+.container-login .container-formulario .formulario-login fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  height: 50%;
+}
+.container-login .container-formulario .formulario-login input {
+  border: 1px #DDD solid;
+  padding: 1rem;
+  border-radius: 3rem;
+}
+.container-login .container-formulario .formulario-login button {
+  border: 1px #000 solid;
+  padding: 1rem;
+  margin-top: 3.5rem;
+  border-radius: 3rem;
+}
+.container-login .container-formulario .formulario-login button:hover {
+  cursor: pointer;
+  border-color: #DDD;
+  color: #DDD;
+}
+.container-login .container-formulario .formulario-login .login-botoes {
+  display: flex;
+  justify-content: space-between;
+}
+.container-login .container-formulario .formulario-login .login-botoes a:hover {
+  cursor: pointer;
+  color: #CE253A;
+}
+
+/*# sourceMappingURL=sectionFormulario.css.map */

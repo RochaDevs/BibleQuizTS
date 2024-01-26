@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/dist/css/base/reset.css">
+    <link rel="stylesheet" href="../css/components/pageProfeta/AppProfeta.css">
+    <link rel="icon" type="image/x-icon" href="/dist/images/favicon.png">
+
+    <title>Quiz Geral</title>
+</head>
+
+<body>
+
+    <header class="cabecalho_quiz">
+        <nav class="categorias_quiz">
+            <button>
+                <a href="./index.html">
+                    Início
+                </a>
+            </button>
+            <button>
+                <a href="./profeta.html" style="color: red;">
+                    Acerte o profeta
+                </a>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="container_profeta">
+
+            <div class="box_profeta">
+                <h1>Acerte o profeta! Responda 10 questões sobre os profetas do Antigo Testamento:</h1>
+                <h2> 
+                    PERGUNTA 
+                    <span id="numero_pergunta">
+                        
+                    </span>
+                    :
+                </h2>
+                <p id="container_pergunta">
+
+                </p>
+                <form class="form_profeta" id="formulario_profeta">
+
+                    <p>Existe apenas uma resposta correta:</p>
+
+                    <div>
+                        <input type="radio" name="resposta" id="resposta1" value="resposta1">
+                        <label for="resposta1">Resposta 1</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="resposta" id="resposta2" value="resposta2">
+                        <label for="resposta2">Resposta 2</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="resposta" id="resposta3" value="resposta3">
+                        <label for="resposta3">Resposta 3</label>
+                    </div>
+
+                    <button type="submit">
+                        Verificar resposta
+                    </button>
+
+                </form>
+            </div>
+
+            <div class="profeta_pontos">
+
+                <h1>Contagem de pontos atual:</h1>
+
+                <p>
+                    A cada pergunta acertada você ganha +100 pontos. A cada pergunta errada você perderá -150 pontos. Se chegar até o final do quiz com pelo menos 600 pontos você ganha.
+                </p>
+
+                <div class="profeta_pontos_container">
+                    TOTAL DE PONTOS: <span>0</span>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer></footer>
+
+</body>
+
+<script type="module" src="/dist/js/mainProfeta.js"></script>
+
+</html>

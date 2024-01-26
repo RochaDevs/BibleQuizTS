@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap");
+.container-apresentacao-cadastro {
+  width: 50%;
+  background-image: url("/dist/images/cadastro.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+.container-apresentacao-cadastro h1 {
+  font-size: 2rem;
+  padding: 1rem;
+  font-weight: 900;
+  color: #FFF;
+  text-shadow: 2px 2px 4px #888;
+}
+
+/*# sourceMappingURL=sectionApresentacaoCadastro.css.map */

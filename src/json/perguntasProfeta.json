@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "question": "Quem foi o profeta que liderou os israelitas para fora do Egito e recebeu os Dez Mandamentos?",
+        "options": ["Samuel", "Elias", "Moisés"],
+        "answer": "Moisés"
+    },
+    {
+        "id": 2,
+        "question": "Qual profeta foi engolido por um grande peixe após tentar fugir do comando de Deus?",
+        "options": ["Jonas", "Daniel", "Ezequiel"],
+        "answer": "Jonas"
+    },
+    {
+        "id": 3,
+        "question": "Qual profeta é conhecido por ter confrontado e derrotado os profetas de Baal no Monte Carmelo?",
+        "options": ["Eliseu", "Elias", "Isaías"],
+        "answer": "Elias"
+    },
+    {
+        "id": 4,
+        "question": "Quem foi o profeta que permaneceu fiel a Deus enquanto estava na cova dos leões?",
+        "options": ["Daniel", "Jeremias", "Ezequiel"],
+        "answer": "Daniel"
+    },
+    {
+        "id": 5,
+        "question": "Qual profeta foi chamado por Deus quando ainda era criança e servia no templo sob a orientação de Eli?",
+        "options": ["Samuel", "Isaías", "Joel"],
+        "answer": "Samuel"
+    },
+    {
+        "id": 6,
+        "question": "Quem é o profeta conhecido por suas lamentações sobre a destruição de Jerusalém?",
+        "options": ["Jeremias", "Naum", "Habacuque"],
+        "answer": "Jeremias"
+    },
+    {
+        "id": 7,
+        "question": "Qual profeta teve uma visão das 'rodas dentro de rodas' e profetizou sobre os ossos secos?",
+        "options": ["Ezequiel", "Zacarias", "Malaquias"],
+        "answer": "Ezequiel"
+    },
+    {
+        "id": 8,
+        "question": "Qual profeta casou-se com uma prostituta como um ato simbólico da relação de Deus com Israel infiel?",
+        "options": ["Oséias", "Joel", "Amós"],
+        "answer": "Oséias"
+    },
+    {
+        "id": 9,
+        "question": "Quem foi o profeta que descreveu uma futura era de paz simbolizada pela expressão 'as espadas serão transformadas em arados'?",
+        "options": ["Miquéias", "Naum", "Ageu"],
+        "answer": "Miquéias"
+    },
+    {
+        "id": 10,
+        "question": "Qual profeta profetizou durante o reinado de Davi e repreendeu o rei por seu pecado com Bate-Seba?",
+        "options": ["Natã", "Gad", "Samuel"],
+        "answer": "Natã"
+    }
+]
+
