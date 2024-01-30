@@ -31,7 +31,7 @@
 }
 .formulario-cadastro .container-cadastro-formulario .form-cadastro {
   width: 60%;
-  height: 60%;
+  height: auto;
   display: flex;
   flex-direction: column;
   border: solid 1px #fff;
@@ -52,7 +52,7 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 1rem;
-  height: 50%;
+  height: 100%;
 }
 .formulario-cadastro .container-cadastro-formulario .form-cadastro input {
   border: 1px #DDD solid;
@@ -62,7 +62,7 @@
 .formulario-cadastro .container-cadastro-formulario .form-cadastro button {
   border: 1px #000 solid;
   padding: 1rem;
-  margin-top: 3.5rem;
+  margin: 2rem 0rem;
   border-radius: 3rem;
 }
 .formulario-cadastro .container-cadastro-formulario .form-cadastro button:hover {
