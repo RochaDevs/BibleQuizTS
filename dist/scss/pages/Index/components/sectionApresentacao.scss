@@ -1,29 +1,23 @@
 @use '../../../base/variaveis';
 
 .apresentacao {
-    width: 50%;
+    // width: 50%;
     background-color: variaveis.$corPrincipal;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    // // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
     font-family: variaveis.$Montserrat;
-    line-height: 3rem;
+    // line-height: 3rem;
     color: #fff;
 
     .apresentacao_imagem {
         border-radius: 50%;
     }
 
-    h1 {
-        font-weight: 900;
-        font-size: 2rem;
-        text-align: center;
+    // h1 {
+    //     font-weight: 900;
 
-    }
+    // }
 
-    h2 {
-        font-size: 1.5rem;
-        padding-top: 1rem;
-    }
 }
