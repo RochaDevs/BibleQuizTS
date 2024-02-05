@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../../../scss/base/variaveis.scss","../../../../scss/pages/Index/components/sectionApresentacao.scss"],"names":[],"mappings":"AAAQ;ACER;EAEI,kBDDW;ECMX,aDFS;ECIT;;AAEA;EACI","file":"sectionApresentacao.css"}
+{"version":3,"sourceRoot":"","sources":["../../../../scss/base/variaveis.scss","../../../../scss/pages/Index/components/sectionApresentacao.scss"],"names":[],"mappings":"AAAQ;ACER;EACI;EACA,aDGS;ECFT","file":"sectionApresentacao.css"}
