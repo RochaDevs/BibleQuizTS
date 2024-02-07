@@ -1,80 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap");
 .container-apresentacao-cadastro {
-  width: 50%;
   background-image: url("/dist/images/cadastro.png");
   background-size: cover;
   background-repeat: no-repeat;
-  text-align: center;
   font-family: "Montserrat", sans-serif;
-  justify-content: space-between;
-  display: flex;
-  flex-direction: column;
 }
 .container-apresentacao-cadastro h1 {
-  font-size: 2rem;
-  padding: 1rem;
-  font-weight: 900;
   color: #FFF;
   text-shadow: 2px 2px 4px #888;
 }
 
-.formulario-cadastro {
-  width: 50%;
-}
-.formulario-cadastro .container-cadastro-formulario {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6rem;
-}
 .formulario-cadastro .container-cadastro-formulario .form-cadastro {
-  width: 60%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
   border: solid 1px #fff;
-  border-radius: 3rem;
-  padding: 3rem;
   font-family: "Montserrat", sans-serif;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  justify-content: space-around;
-}
-.formulario-cadastro .container-cadastro-formulario .form-cadastro legend {
-  font-size: 2rem;
-  color: #000;
-  font-weight: 900;
-  padding-bottom: 1rem;
-}
-.formulario-cadastro .container-cadastro-formulario .form-cadastro fieldset {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 1rem;
-  height: 100%;
 }
 .formulario-cadastro .container-cadastro-formulario .form-cadastro input {
   border: 1px #DDD solid;
-  padding: 1rem;
-  border-radius: 3rem;
 }
 .formulario-cadastro .container-cadastro-formulario .form-cadastro button {
   border: 1px #000 solid;
-  padding: 1rem;
-  margin: 2rem 0rem;
-  border-radius: 3rem;
 }
 .formulario-cadastro .container-cadastro-formulario .form-cadastro button:hover {
   cursor: pointer;
   border-color: #DDD;
   color: #DDD;
 }
-.formulario-cadastro .container-cadastro-formulario .form-cadastro .login-botoes {
-  display: flex;
-  justify-content: space-between;
-}
-.formulario-cadastro .container-cadastro-formulario .form-cadastro .login-botoes a:hover {
+.formulario-cadastro .container-cadastro-formulario .form-cadastro a:hover {
   cursor: pointer;
   color: #CE253A;
 }
